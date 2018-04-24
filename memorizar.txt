@@ -1,0 +1,28 @@
+COL/XS	(     < 575) Extra pequeño, para dispositivos con una resolucción no mayor a 575 pixeles
+Tamaño celular. 575x600
+ 
+SM	(576  - 767) Pequeño, para dispositivos con una resolucción entre 576 a 767 pixeles 
+Tamaño celular. 767x600
+
+MD	(768  - 991) Mediano, para dispositivos con una resolucción entre 768 a 991 pixeles 
+Tamaño smartphone/tablet. 991x600
+
+LG	(992  - 1199) Largo, para dispositivos con una resolucción entre 992 a 1199 pixeles
+Tamaño tablet de alta resolución/monitores antiguos. 1199x690
+
+XL	(1200 >) Extra largo, para dispositivos con una resolucción mayor o igual a 1200 pixeles
+Tamaño laptop/monitores de alta resolución. 1280x690
+
+
+primary
+secondary
+dark
+light
+danger
+warning
+success
+info
+white
+
+voy por 1:01:01
+
