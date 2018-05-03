@@ -8,21 +8,63 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 <body>
-	<div class="container">
+	<div class="container border 1">
 		<div class="row">
-			<div class="col-12">
-				<p>Ejemplo de card (Tarjeta de presentacion)</p>
-				<!--
+			<div class="col-4 border 1">
+				<div class="float-left">
+					<p>Ejemplo de card (Tarjeta de presentacion)</p>
+					<div class="card bg-light">
+						
+						<div class="card-header">
+							<p>CAFÉ</p>
+						</div>
+						<img src="img/cafe.jpg">
 
-				 -->
-				<div class="card w-50">
-					<div class="card-header">
-						<p>
-							
-						</p>
+						<div class="card-body">
+							<h3 class="card-title">El mejor café de Miranda</h3>
+							<p>El mejor café de Miranda esta ubicado en su capital (Los Teque)</p>
+							<a href="#" class="btn btn-primary">VER TIENDA</a>
+						</div>
+						
+						<div class="card-footer">
+							<p>Esto es un pie de tarjeta</p>
+						</div>
 					</div>
 				</div>
 			</div>
+			<!-- dropup el menu desplegable se desplega hacia la parte superior
+				dropdown-item active activa
+				dropdown-item disabled desactiva
+			-->
+			<div class="col-4 dropdown border 1">
+				<div class="float-left">
+					<p>Ejemplo de Menu Desplegable (dropdown menu)</p>
+					<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Desplegable</button>
+					<div class="dropdown-menu">
+						<div class="dropdown-header"><p class="bg-primary text-white">Grupo 1</p></div>
+						<a href="#" class="dropdown-item">link 1</a>
+						<a href="#" class="dropdown-item">link 2</a>
+						<a href="#" class="dropdown-item">link 3</a>
+						<div class="dropdown-divider"></div>
+						<div class="dropdown-header"><p class="bg-primary text-white">Grupo 2</p></div>
+						<a href="#" class="dropdown-item">link 4</a>
+						<a href="#" class="dropdown-item">link 5</a>
+						<a href="#" class="dropdown-item">link 6</a>
+					</div>
+				</div>
+			</div>
+			<!-- 
+			-->
+			<div class="col-4 border 1">
+				<div class="float-left">
+					<p>Ejemplo de Plegables, Acordiones</p>
+					<button data-toggle="collapse" data-target="#demo">Primero</button>
+					<div id="demo" class="collapse"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatum earum, fugit dolores, vel vitae aut amet exercitationem adipisci repudiandae cupiditate cumque rerum consectetur facere. Debitis illo, totam. Rem, neque.</p></div>
+					<button data-toggle="collapse" data-target="#demo1" class="">Segundo</button>
+					<div id="demo1" class="collapse"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatum earum, fugit dolores, vel vitae aut amet exercitationem adipisci repudiandae cupiditate cumque rerum consectetur facere. Debitis illo, totam. Rem, neque.</p></div>
+				</div>
+			</div>
+
 		</div>
 	</div>
 	<script src="js/jquery-3.3.1.slim.min.js"></script>
