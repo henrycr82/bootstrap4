@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie-edge">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<p>Ejemplo de Acordiones</p>
+				<div id="acordion">
+					<div class="card">
+						<div class="card-header">
+							<a href="#uno" class="card-link" data-toggle="collapse" data-parent="#acordion">Ejemplo Con Show</a>
+						</div>
+						<div id="uno" class="collapse show">
+							<div class="card-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed consectetur enim reiciendis quasi soluta quibusdam voluptates vel ratione labore, minima, quod quaerat. Inventore quos ipsam ad voluptate, accusamus aperiam, blanditiis.</p></div>
+						</div>
+						<div class="card-header">
+							<a href="#dos" class="card-link" data-toggle="collapse" data-parent="#acordion">Ejemplo Sin Show</a>
+						</div>
+						<div id="dos" class="collapse">
+							<div class="card-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed consectetur enim reiciendis quasi soluta quibusdam voluptates vel ratione labore, minima, quod quaerat. Inventore quos ipsam ad voluptate, accusamus aperiam, blanditiis.</p></div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<!--  justify-content-center (centrado) end (derecha), start(izquierda) Alineaciòn 
+				      nav-justified para distribuir el contenido en too nuesto espacio
+					  flex-column menu vertical
+					  nav-pills estilo como botòn o pildora
+				-->
+				<p>Ejemplo de Menú de Navegación</p>
+				<div>
+					<ul class="nav nav-pills">
+						<li class="nav-item"><a href="#" class="nav-link active">Link 1</a></li>
+						<li class="nav-item"><a href="#" class="nav-link disabled">Link 2</a></li>
+						<li class="nav-item"><a href="#" class="nav-link btn-secondary">Link 3</a></li>
+						<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Link 4</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Link 4.1</a>
+								<a href="#" class="dropdown-item">Link 4.2</a>
+								<a href="#" class="dropdown-item">Link 4.3</a>
+								<a href="#" class="dropdown-item">Link 4.4</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<br>
+				<!--
+					filosofía Mobile First, es una filosofía, una manera de encarar el trabajo y una forma de facilitarnos la labor durante el diseño responsive, comenzando siempre por los dispositivos, con pantallas menores. "Mobile First" es en realidad un concepto bastante simple: diseñar pensando en los móviles primero.
+
+					navbar-expand-md para la alineaciòn vertical apartir de la medida md (dispositivos con una resolucción entre 768 a 991 pixeles Tamaño smartphone/tablet. 991x600) 
+
+					bg-light color de fondo
+
+					<a href="" class="navbar-brand"></a> Para insertar un link con imagen en nuestra barra de menú
+
+
+
+				-->
+				<p>Ejemplo de Barra de Navegación</p>
+				<div>
+					<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+						<a href="" class="navbar-brand"><img src="img/Bootstrap4.png" style="width: 70px;"></a>
+
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#uno">
+							<samp class="navbar-toggler-icon"></samp>
+						</button>
+
+						<div class="collapse navbar-collapse" id="uno">
+							<ul class="navbar-nav">
+								<li class="nav-item"><a href="#" class="nav-link">Link 1</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie-edge">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<!-- 
+					en el form class="form-inline" para que los campos del formulario se vena todos en una sola linea
+
+				-->
+				<h3><p>Formularios</p></h3>
+				<form action="miPagina.php" method="post">
+					<label for="nombre">Nombre</label><input type="text" id="nombre" class="form-control">
+					<label for="email">Email</label><input type="email" id="email" class="form-control">
+					<label for="fecha">fecha</label><input type="date" id="fecha" class="form-control">
+					<label for="color">Color</label><input type="color" id="color" class="form-control">
+					<label for="contrasena">Contraseña</label><input type="password" id="contrasena" class="form-control">
+					<div class="radio">
+						<label class="radio-inline"><input type="radio" name="gusto">Le gusta beber</label>
+					</div>
+					<div class="form-check">
+						<label for="opcion" class="form-check-label"><input type="checkbox" class="form-check-input">Opción 1</label>
+					</div>
+					<select name="select" id="select" class="form-control">
+						<option value="uno">Uno</option>
+						<option value="uno">Dos</option>
+						<option value="uno">Tres</option>
+					</select><br>
+
+					<!--<br><label for="recordar" class="form-check-label"><input type="checkbox" id="nombre" class="form-check-input">Recordarme</label><br><br>
+					<textarea name="descripcion" id="descripcion" cols="100" rows="10"></textarea><br>-->
+					<input type="submit" value="ENVIAR" class="btn btn-primary">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

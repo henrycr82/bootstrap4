@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie-edge">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+	<div class="container fluid">
+		<div class="row">
+			<div class="col-12">
+				<!-- 
+					en el form class="form-inline" para que los campos del formulario se vena todos en una sola linea
+
+				-->
+				<h3><p>Carruseles</p></h3>
+				<div id="demo" class="carousel slide" dara-ride="carousel">
+					<!--INDICADORES -->
+					<ul class="carousel-indicators">
+						<li data-target="demo" data-slide-to="0" class="active"></li>
+						<li data-target="demo" data-slide-to="1"></li>
+						<li data-target="demo" data-slide-to="2"></li>
+					</ul>
+					<!--IMAGENES -->
+					<div class="carosuel-inner">
+						<div class="carousel-item active">
+							<img src="img/atardecer.jpg" class="img-fluid" style="width: 1200px; height: 500px;">
+							<div class="carousel-caption">
+								<h3>Atardeecer</h3>
+								<p>Atardecer en playa Venezolana</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="img/llano.jpg" class="img-fluid" style="width: 1200px; height: 500px;">
+							<div class="carousel-caption">
+								<h3>Llano</h3>
+								<p>Llanos Venezolanos</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="img/birra.jpg" class="img-fluid" style="width: 1200px; height: 500px;">
+							<div class="carousel-caption">
+								<h3>Cerveza</h3>
+								<p>Cervezas artesanales de Venezuela</p>
+							</div>
+						</div>
+					</div>
+					<!--CONTROLES DE LA IZQUIERDA Y DERECHA -->
+					<a href="#demo" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+					<a href="#demo" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
